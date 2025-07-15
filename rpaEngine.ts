@@ -104,7 +104,11 @@ export async function runRpa() {
   console.log('[RPA] Running...');
 (async () => {
   console.log('🚀 Starting RPA engine...');
-  const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch({
+  headless: 'true',
+  args: ['--no-sandbox', '--disable-setuid-sandbox']
+}as any);
+
   const page = await browser.newPage();
 
   const taskId = 1;
