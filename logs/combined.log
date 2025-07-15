@@ -1,0 +1,4 @@
+[dotenv@17.2.0] injecting env (2) from .env (tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' })
+🚀 Server started at http://localhost:3000
+[dotenv@17.2.0] injecting env (2) from .env (tip: ⚙️  write to custom object with { processEnv: myObject })
+🚀 Server started at http://localhost:3000
